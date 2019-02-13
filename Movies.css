@@ -1,0 +1,19 @@
+#Search{
+width:930px;
+}
+a{
+	color:white;
+}
+#Movies img,#Movie img{
+	width:100%;
+}
+@media(min-width:960px)
+{
+	#Movies .col-md-3 .well{
+		height:390px;
+	}
+
+	#Movies .col-md-3 img{
+		height:280px;
+	}
+}

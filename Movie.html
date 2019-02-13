@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="//abdalwahab97.github.io/Abdalwahab.github.io/Movies.css">
+	<link rel="stylesheet" type="text/css" href="Movies.css">
 	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<title>Movies Information</title>
@@ -17,17 +17,14 @@
 		</div>
 	</div>
 </nav>
+
+
 <div class="container"> 
-		<div class="jumbotron">
-			<h3 class="text-center"> Search for Movies </h3>
-      		<form id="SearchForm">
-     			 <input class="form-control" type="text" placeholder="Search Movie" id="Search">
-   		 	</form>
-	</div>
-</div>
-<div class="container"> 
-<div class="row" id="Movies"> </div>
+<div class="row well" id="Movie"> </div>
 </div>
 <script type="text/javascript" src="Movies.js"></script>
+<script>
+	getMovie();
+	</script>
 </body>
 </html>
