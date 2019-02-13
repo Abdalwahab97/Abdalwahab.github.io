@@ -10,7 +10,6 @@ $('#SearchForm').on('submit' ,(e) =>{
 function getMovies(searchedMovie){
 	axios.get('https://www.omdbapi.com/?apikey=8fead50e&s='+searchedMovie).
 	then((response)=>{
-		console.log(response);
 		let movies = response.data.Search;
 		let output = '';
 		$.each(movies,function(i,movie){
